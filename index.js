@@ -1,4 +1,5 @@
 const axios = require("axios");
+const FormData = require("form-data");
 
 const vote = async (emails) => {
   let success = 0;
